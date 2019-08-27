@@ -32,9 +32,7 @@ app.get('/', function(request, response) {
   response.sendFile(__dirname + '/public/index.html');
 });
 app.get('/browse', function(request, response) {
-    response.send(arr[2]);
-    response.send(arr[3]);
-    response.send(arr[4]);
+response.send(arr);
   });
 
 app.get('/upload', function(request, response) {
