@@ -66,6 +66,6 @@ app.get('*', function(req, res){
     console.log("A IDIOT JUST DIDNT KNOW WHERE THE FILE WAS HAHA!")
   });
 // listen for requests :)
-const listener = app.listen(7000, function() {
+const listener = app.listen(process.env.PORT, function() {
   console.log('Your app is listening on port ' + listener.address().port);
 });
