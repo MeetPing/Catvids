@@ -39,6 +39,11 @@ var vid = `    <nav class="navbar navbar-inverse">
     <input type="file" name="sampleFile" />
 <div class="g-recaptcha" data-sitekey="6LdpY7UUAAAAAEcYYhx830cbHysb52iErB7t0Mja"></div>
 <input type='submit' value='Upload!' />
+<script type="text/javascript">
+  var onloadCallback = function() {
+    alert("grecaptcha is ready!");
+  };
+</script>
 
 </form>     
 Please upload .mp4 files because i havent made a filter YET.
