@@ -37,17 +37,9 @@ var vid = `    <nav class="navbar navbar-inverse">
   method='post' 
   encType="multipart/form-data">
     <input type="file" name="sampleFile" />
+<div class="g-recaptcha" data-sitekey="6LdpY7UUAAAAAEcYYhx830cbHysb52iErB7t0Mja"></div>
 <input type='submit' value='Upload!' />
-    <span id="recapca"></span>    
-  <script src="https://www.google.com/recaptcha/api.js?render=6LcdYrUUAAAAAMq3PfF1INka59vQ8aZxCusH2QBU"></script>
-  <script>
-  grecaptcha.ready(function() {
-      grecaptcha.execute('6LcdYrUUAAAAAMq3PfF1INka59vQ8aZxCusH2QBU', {action: 'homepage'}).then(function(token) {
-         document.getElementById('recapca').innerHTML = "Recaptcha verified";
-      });
-  });
- grecaptcha.execute()
-  </script>
+
 </form>     
 Please upload .mp4 files because i havent made a filter YET.
 </div>`;
