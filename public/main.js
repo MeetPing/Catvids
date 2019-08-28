@@ -37,7 +37,7 @@ var vid = `    <nav class="navbar navbar-inverse">
   method='post' 
   encType="multipart/form-data">
     <input type="file" name="sampleFile" />
-<div id="html_element"></div>
+<div id="example1"></div>
 <input type='submit' value='Upload!' />
 
 
