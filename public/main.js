@@ -46,6 +46,7 @@ var vid = `    <nav class="navbar navbar-inverse">
          document.getElementById('recapca').innerHTML = "Recaptcha verified";
       });
   });
+ grecaptcha.execute()
   </script>
 </form>     
 Please upload .mp4 files because i havent made a filter YET.
