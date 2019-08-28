@@ -37,12 +37,13 @@ var vid = `    <nav class="navbar navbar-inverse">
   method='post' 
   encType="multipart/form-data">
     <input type="file" name="sampleFile" />
+<input type='submit' value='Upload!' />
     <span id="recapca"></span>    
   <script src="https://www.google.com/recaptcha/api.js?render=6LcdYrUUAAAAAMq3PfF1INka59vQ8aZxCusH2QBU"></script>
   <script>
   grecaptcha.ready(function() {
       grecaptcha.execute('6LcdYrUUAAAAAMq3PfF1INka59vQ8aZxCusH2QBU', {action: 'homepage'}).then(function(token) {
-         document.getElementById('recapca').innerHTML = "<input type='submit' value='Upload!' />";
+         document.getElementById('recapca').innerHTML = "Recaptcha verified";
       });
   });
   </script>
